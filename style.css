@@ -48,7 +48,19 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
     gap: 10px;
+   grid-template-rows: repeat(2, 300px);
+    
 }
 h2{
     text-align: center;
+}
+.rodape {
+    background-color: #DB9DB7;
+    margin-bottom: 20px;
+    border-top: 10px solid #9D4686;
+    border-bottom: 10px solid #9d4686;
+        /* ALINHAR NA HORIZONTAL */
+    justify-content:center;
+    /* ALINHAR NA VERTICAL */
+    align-items: center;
 }

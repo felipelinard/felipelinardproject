@@ -19,7 +19,7 @@ html * {
     color: black;
     font-size: 50px;
     text-align: center;
-    font-family: cursive;  
+    font-family: helvetica;  
 
 }
 #menu a{
@@ -105,5 +105,11 @@ img{
     width: 300px;
     object-fit: contain;
 }
-
+#logo{
+    /* LARGURA DO LOGOTIPO */
+    width: 100%;
+    /* MARGEM DO LOGOTIPO */
+    margin: 5px;
+    
+}
 

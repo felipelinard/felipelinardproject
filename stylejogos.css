@@ -55,6 +55,17 @@ body{
     text-align: center;
     font-family: cursive;
 }
+.boxjogos1 {
+    background-color: #6af5ee;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    border-top: 20px solid #40f0d2;
+    border-left: 10px solid #40f0d2;
+    border-right:  10px solid #40f0d2;
+    border-radius: 1%;
+    text-align: center;
+}
 /* CONFIGURAÇÃO DA PÁGINA TERCEIRO ANO */
 #terceiroano{
     background-color: darkgoldenrod;
@@ -130,7 +141,6 @@ a{
     text-align: center;
     margin: 05px;
 }
-
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr) ;
@@ -139,28 +149,6 @@ main{
     margin-right: 20px;
 }
 h2{
-    text-align: center;
-}
-
-}
-
-.boxjogos1 {
-    /* COR DE FUNDO */
-    background-color: #6af5ee;
-    /* FONTE */
-    font-family: sans-serif;
-    /* LETRAS MAIÚSCULAS */
-    text-transform: uppercase;
-     /* COR DA FONTE */
-    color: black;
-    /* BORDA SUPERIOR */
-    border-top: 20px solid #40f0d2;
-    /*BORDA LATERAL */
-    border-left: 10px solid #40f0d2;
-    border-right:  10px solid #40f0d2;
-    /* BORDAS ARREDONDADAS */
-    border-radius: 1%;
-    /* TEXTO CENTRALIZADO */
     text-align: center;
 }
 img{
@@ -174,7 +162,5 @@ img{
     grid-template-rows: repeat (2 1fr);
     gap: 20px;
     margin-left: 30px;
-
-
 }
 

@@ -1,38 +1,52 @@
 html * {
-    margin: 1%;
-    max-width: 95%;
+    margin: 0%;
+    max-width: 100%;
     align-items: center;
 }
 #menu{
+    /*MENU DE NAVEGAÇÃO*/
     background-color: #DB9DB7;
-    margin-bottom: 20px;
+    margin: 0px;
     border-top: 10px solid #9D4686;
     border-bottom: 10px solid #9d4686;
-    padding: 10px;
+    padding: 05px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* QUANTIDADE DE COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 #titulo {
     color: black;
     font-size: 50px;
     text-align: center;
-    font-family: verdana;
+    font-family: cursive;  
+
 }
 #menu a{
     color:black;
     text-transform:uppercase;
     text-decoration: none;
-    font-family: sans-serif ; 
+    font-family: cursive ; 
     font-weight: bold;
     text-align: center;
     margin: 05px;
 }
-#logotipo {
-    display: block;
-    margin-right: auto;
-    
+#explica {
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-family: cursive;
+    font-weight: bold;
+    justify-content: center;
+    color: rgba(255, 208, 0, 0.918);
+    font-size: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: blueviolet;
+
 }
+    
+
 .inicial {
     text-align: center;
     text-transform: uppercase;
@@ -44,11 +58,15 @@ html * {
 body{
     background-color:#D0B9CA;
 }
+
 main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    gap: 10px;
+    grid-template-columns: repeat(3, 30%) ;
+    gap:30px;
    grid-template-rows: repeat(2, 300px);
+   margin-top:50px;
+   margin-left: 5%;
+   margin-right: 5%;
     
 }
 h2{
@@ -64,3 +82,28 @@ h2{
     /* ALINHAR NA VERTICAL */
     align-items: center;
 }
+
+.item {
+    /* COR DE FUNDO */
+    background-color: #9d4686;
+    /* FONTE */
+    font-family: cursive;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: initial;
+     /* COR DA FONTE */
+    color: #000000;
+    /* BORDA SUPERIOR */
+    border-top: 10px solid #eb99d2;
+    /* BORDAS ARREDONDADAS */
+    border-radius: 5%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+

@@ -1,0 +1,180 @@
+html * {
+    margin: 0%;
+    max-width: 100%;
+    align-items: center;
+}
+#botao:hover{
+    background-color: green;
+    color: coral;
+}
+#menuprimeiro{
+    background-color: #35cee2;
+     border-top: 10px solid #9ad9db;
+    border-bottom: 10px solid #9fd9e4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+#explica {
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-family: cursive;
+    font-weight: bold;
+    justify-content: center;
+    color: rgba(255, 208, 0, 0.918);
+    font-size: 15px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 05px;
+    margin-bottom: 10px;
+    background-color: blueviolet;}
+#titulo {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+.inicial {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+}
+/*CONFIGURAÇÃO PÁGINA PRIMEIRO ANO*/
+body{
+    background-color:#a4e7dc;
+}
+.rodape {
+    background-color: #49d1e9;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-top: 10px solid #11d8c7;
+    border-bottom: 10px solid #11d8c7;
+    text-align: center;
+    font-family: cursive;
+}
+/* CONFIGURAÇÃO DA PÁGINA TERCEIRO ANO */
+#terceiroano{
+    background-color: darkgoldenrod;
+}
+#menuterceiro{
+    background-color: rgb(218, 160, 14);
+     border-top: 10px solid #dfb16d;
+    border-bottom: 10px solid #dfb16d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.rodapeterceiro {
+    background-color: rgb(218, 160, 14);
+    border-top: 10px solid #dfb16d;
+    border-bottom: 10px solid #dfb16d;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+.boxjogos3 {
+    background-color: rgb(218, 160, 14);
+    border-top: 20px solid #dfb16d;
+    border-bottom: 10px solid #dfb16d;
+    border-left: 10px solid #dfb16d;
+    border-right:  10px solid #dfb16d;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 1%;
+    text-align: center;
+}
+/*CONFIGURAÇÃO PÁGINA SEGUNDO ANO*/
+#segundoano{
+    background-color: grey;
+}
+#menusegundo{
+    background-color: #6e7779;
+    border-top: 10px solid #a4a5a5;
+    border-bottom: 10px solid #a4a5a5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.rodapesegundo {
+    background-color: #6e7779;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-top: 10px solid #a4a5a5;
+    border-bottom: 10px solid #a4a5a5;
+    text-align: center;
+    font-family: cursive;
+}
+.boxjogos2 {
+    background-color: #6e7779;
+    border-top: 20px solid #a4a5a5;
+    border-bottom: 10px solid #a4a5a5;
+    border-left: 10px solid #a4a5a5;
+    border-right:  10px solid #a4a5a5;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 1%;
+    text-align: center;
+}
+a{
+    color:black;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-family: cursive ; 
+    font-weight: bold;
+    text-align: center;
+    margin: 05px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat (2 1fr);
+    gap: 10px;
+    margin-right: 20px;
+}
+h2{
+    text-align: center;
+}
+
+}
+
+.boxjogos1 {
+    /* COR DE FUNDO */
+    background-color: #6af5ee;
+    /* FONTE */
+    font-family: sans-serif;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+     /* COR DA FONTE */
+    color: black;
+    /* BORDA SUPERIOR */
+    border-top: 20px solid #40f0d2;
+    /*BORDA LATERAL */
+    border-left: 10px solid #40f0d2;
+    border-right:  10px solid #40f0d2;
+    /* BORDAS ARREDONDADAS */
+    border-radius: 1%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat (2 1fr);
+    gap: 20px;
+    margin-left: 30px;
+
+
+}
+
